@@ -83,18 +83,16 @@ sort the requests of the user, which makes each request unique and easy to retri
 
 ### Attributes for the requests
 
-| Field Name        | Type   | Description                            |
-|-------------------|--------|----------------------------------------|
-| partitionKey      | String | The email of the user                  |                  
-| sortKey           | String | The requestId of the request           |
-| email             | String | The email of the user                  |
-| requestId         | String | The requestId of the request           |
-| status            | String | The status of the request              |
-| filename          | String | The filename of the audio file         |
-| requestsProcessed | Number | The number of requests processed       |
-| requestsFound     | Number | The number of requests found           |
-| requestsFailed    | Number | The number of requests failed          |
-| duration          | Number | The duration of the request processing |
+| Field Name   | Type   | Description                     |
+|--------------|--------|---------------------------------|
+| partitionKey | String | The email of the user           |                  
+| sortKey      | String | The requestId of the request    |
+| email        | String | The email of the user           |
+| requestId    | String | The requestId of the request    |
+| status       | String | The status of the request       |
+| filename     | String | The filename of the audio file  |
+| ttl          | Number | The time to live of the request |
+| timestamp    | Number | The timestamp of the request    |
 
 ### Attributes for the run events
 
@@ -106,6 +104,8 @@ sort the requests of the user, which makes each request unique and easy to retri
 | requestsFound     | Number | The number of requests found           |
 | requestsFailed    | Number | The number of requests failed          |
 | duration          | Number | The duration of the request processing |
+| ttl               | Number | The time to live of the request        |
+| timestamp         | Number | The timestamp of the request           |
 
 ### Example
 

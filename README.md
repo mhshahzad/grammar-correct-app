@@ -4,6 +4,6 @@ Please find the backend and frontend repositories in their respective folders. T
 
 Mentioned below are the links for the convenience:
 
-- [Backend Service](https://github.com/mhshahzad/grammar-correct-project/tree/main/grammar-correct-app)
-- [Frontend App](https://github.com/mhshahzad/grammar-correct-project/tree/main/grammar-correct-service)
+- [Backend Service](https://github.com/mhshahzad/grammar-correct-project/tree/main/grammar-correct-service)
+- [Frontend App](https://github.com/mhshahzad/grammar-correct-project/tree/main/grammar-correct-app)
 
